@@ -1,0 +1,12 @@
+sbt --version
+sbt -v
+sbt version
+sbt play-scala-server dist
+sbt test dist
+sbt dist
+sbt dist play-scala-server
+sbt sbtVersion
+sbt version
+sbt
+brew install sbt
+pwd

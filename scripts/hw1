@@ -1,6 +1,6 @@
 1. Create a folder for input data in your HDP sandbox, create python or bash script to create folder in HDFS and remove same folder.
 
-hadoop fs -mkdir /user/admin/dataset
+	hadoop fs -mkdir /user/admin/dataset
 
 2. Load dataset into your HDFS in sandbox using distcp, write a python or bash script that loads data from local system folder and writes it to HDFS
    If the source datasource were another HDFS or distributed object storage, then we would use DISTCP. But in our case we load dataset from local filesystem.
@@ -16,4 +16,8 @@ hadoop fs -mkdir /user/admin/dataset
 	git clone https://github.com/Grogs/scala-course.git
 	sbt "~run 9001"
 
-4. 
+4. Analyze supporting web application. Create a docker image for this application, create docker file that will create image on web app build (can use maven plugin for that)
+   Added SBT support to build an image as well(at the team`s GitHub version).
+	sbt docker:publishLocalD - creates the app image in the local directory
+   To run app:
+	docker run --rm -p9000:9000 play-scala-server:1.0-SNAPSHOT

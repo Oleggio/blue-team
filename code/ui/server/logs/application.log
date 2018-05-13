@@ -1,0 +1,2 @@
+2018-05-13 12:03:14,824 [INFO] from application in scala-execution-context-global-198 - ApplicationTimer demo: Starting application at 2018-05-13T09:03:14.821Z.
+2018-05-13 12:03:16,183 [INFO] from play.api.Play in scala-execution-context-global-198 - Application started (Dev)

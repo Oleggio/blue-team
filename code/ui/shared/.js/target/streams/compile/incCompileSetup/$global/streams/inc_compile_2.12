@@ -1,0 +1,428 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/classes
+compile options:
+2 items
+0 -> -P:scalajs:mapSourceURI:file:/Users/oleg/GitHub/scala-course/shared/src/main/scala/->abb86e34066934cc6044/
+1 -> -Xplugin:/Users/oleg/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.12.2/0.6.20/scalajs-compiler_2.12.2-0.6.20.jar
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.12.2
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+7 items
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> /Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/classes/views/html/hotelsTable$.class
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> /Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/classes/views/html/hotelsTable.class
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> /Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/classes/model/Coordinates$.class
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> /Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/classes/model/Coordinates.class
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> /Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/classes/model/Hotel$.class
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> /Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/classes/model/Hotel.class
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/services/hotels/HotelsService.scala -> /Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/classes/services/hotels/HotelsService.class
+binary dependencies:
+13 items
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/rt.jar
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> /Users/oleg/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/twirl-api_sjs0.6_2.12/1.3.2/twirl-api_sjs0.6_2.12-1.3.2.jar
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> /Users/oleg/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.2/scala-library-2.12.2.jar
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/rt.jar
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> /Users/oleg/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.6.0/play-functional_2.12-2.6.0.jar
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> /Users/oleg/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.6.0/play-json_2.12-2.6.0.jar
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> /Users/oleg/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.2/scala-library-2.12.2.jar
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/rt.jar
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> /Users/oleg/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.6.0/play-functional_2.12-2.6.0.jar
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> /Users/oleg/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.6.0/play-json_2.12-2.6.0.jar
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> /Users/oleg/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.2/scala-library-2.12.2.jar
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/services/hotels/HotelsService.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/rt.jar
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/services/hotels/HotelsService.scala -> /Users/oleg/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.2/scala-library-2.12.2.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+4 items
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> /Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> /Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> /Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/services/hotels/HotelsService.scala -> /Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+7 items
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> views.html.hotelsTable
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> views.html.hotelsTable$
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> model.Coordinates
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> model.Coordinates$
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> model.Hotel
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> model.Hotel$
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/services/hotels/HotelsService.scala -> services.hotels.HotelsService
+used names:
+297 items
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> <init>
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> <repeated>
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> A
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> Any
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> Appendable
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> B
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> BaseScalaTemplate
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> CanBuildFrom
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> Class
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> ClassTag
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> Coll
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> Coordinates
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> Double
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> Format
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> Function1
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> Hotel
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> Html
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> HtmlFormat
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> JavaScript
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> Nothing
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> Predef
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> Seq
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> String
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> StringContext
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> T
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> Template1
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> That
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> TwirlFeatureImports
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> TwirlHelperImports
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> Txt
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> Xml
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> _$7
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> _display_
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> _root_
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> api
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> apply
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> canBuildFrom
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> collection
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> coordinates
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> format
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> gmapsLink
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> hotel
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> hotelsTable
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> html
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> image
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> images
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> lat
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> long
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> map
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> materializeClassTag
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> model
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> name
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> package
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> play
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> raw
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> reflect
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> s
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> scala
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> searchResults
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> twirl
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> views
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> &&
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> <init>
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> <refinement>
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> ==
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> A
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> Any
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> AnyRef
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> Applicative
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> Aux
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> B
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> Boolean
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> CanBuild2
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> Coordinates
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> Double
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> DoubleReads
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> DoubleWrites
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> Format
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> Function1
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> Function2
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> FunctionalBuilder
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> FunctionalBuilderOps
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> FunctionalCanBuild
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> GenericFormat
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> IndexOutOfBoundsException
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> Int
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> InvariantFunctor
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> Iterator
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> JsError
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> JsObject
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> JsPath
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> JsResult
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> JsValue
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> Json
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> JsonConfiguration
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> JsonNaming
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> M
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> MacroOptions
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> None
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> Nothing
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> OFormat
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> OWrites
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> Object
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> Option
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> Opts
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> Predef
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> Product
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> Reads
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> ScalaRunTime
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> Serializable
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> Some
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> Statics
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> String
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> T
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> T0
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> T1
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> T2
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> Tuple2
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> Writes
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> \
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> _root_
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> _toString
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> and
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> api
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> applicative
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> applicativeJsResult
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> apply
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> asInstanceOf
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> config$macro$4
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> coordinates
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> default
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> doubleHash
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> eq
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> finalizeHash
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> format
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> functional
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> functionalCanBuildApplicative
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> functionalCanBuildFormats
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> functionalCanBuildOWrites
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> implicitly
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> invariantFunctorOFormat
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> isInstanceOf
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> json
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> lat
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> libs
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> long
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> mix
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> model
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> naming
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> package
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> play
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> reads
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> rfn
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> runtime
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> scala
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> syntax
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> toFunctionalBuilderOps
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> toString
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> typedProductIterator
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> underlying
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> unlift
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> writes
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> ||
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> &&
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> <init>
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> <refinement>
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> ==
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> A
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> A3
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> A4
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> Any
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> AnyRef
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> Applicative
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> Aux
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> B
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> Boolean
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> CanBuild2
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> CanBuild3
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> CanBuild4
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> CanBuildFrom
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> Coll
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> Coordinates
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> F
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> Format
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> Function1
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> Function4
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> FunctionalBuilder
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> FunctionalBuilderOps
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> FunctionalCanBuild
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> GenericFormat
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> Hotel
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> IndexOutOfBoundsException
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> Int
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> InvariantFunctor
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> Iterator
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> JsError
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> JsObject
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> JsPath
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> JsResult
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> JsValue
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> Json
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> JsonConfiguration
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> JsonNaming
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> Long
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> LongReads
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> LongWrites
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> M
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> MacroOptions
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> None
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> Nothing
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> OFormat
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> OWrites
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> Object
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> Option
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> Opts
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> Predef
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> Product
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> Reads
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> ScalaRunTime
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> Seq
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> Serializable
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> Some
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> Statics
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> String
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> StringReads
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> StringWrites
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> T
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> T0
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> T1
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> T2
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> T3
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> T4
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> Traversable
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> Tuple4
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> Writes
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> \
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> _$1
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> _root_
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> _toString
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> and
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> anyHash
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> api
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> applicative
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> applicativeJsResult
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> apply
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> asInstanceOf
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> canBuildFrom
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> collection
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> config$macro$2
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> coordinates
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> default
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> eq
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> finalizeHash
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> format
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> functional
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> functionalCanBuildApplicative
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> functionalCanBuildFormats
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> functionalCanBuildOWrites
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> id
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> images
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> implicitly
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> invariantFunctorOFormat
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> isInstanceOf
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> json
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> libs
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> longHash
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> mix
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> model
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> name
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> naming
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> package
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> play
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> reads
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> rfn
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> runtime
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> scala
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> syntax
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> toFunctionalBuilderOps
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> toString
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> traversableReads
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> traversableWrites
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> typedProductIterator
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> underlying
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> unlift
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> writes
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> ||
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/services/hotels/HotelsService.scala -> AnyRef
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/services/hotels/HotelsService.scala -> Double
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/services/hotels/HotelsService.scala -> Hotel
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/services/hotels/HotelsService.scala -> Predef
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/services/hotels/HotelsService.scala -> Seq
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/services/hotels/HotelsService.scala -> String
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/services/hotels/HotelsService.scala -> hotels
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/services/hotels/HotelsService.scala -> model
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/services/hotels/HotelsService.scala -> package
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/services/hotels/HotelsService.scala -> scala
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/services/hotels/HotelsService.scala -> services
+product stamps:
+7 items
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/classes/model/Coordinates$.class -> lastModified(1526202183000)
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/classes/model/Coordinates.class -> lastModified(1526202183000)
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/classes/model/Hotel$.class -> lastModified(1526202183000)
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/classes/model/Hotel.class -> lastModified(1526202183000)
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/classes/services/hotels/HotelsService.class -> lastModified(1526202183000)
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/classes/views/html/hotelsTable$.class -> lastModified(1526202183000)
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/classes/views/html/hotelsTable.class -> lastModified(1526202183000)
+source stamps:
+4 items
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> hash(2a1e1e8cd80dd556fdcfa9b282489658ab7fb788)
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> hash(99b39ca6313aa9105fe5c664ab67b3d20eea384f)
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> hash(82251d436b077be2752b973983520656fe106666)
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/services/hotels/HotelsService.scala -> hash(f2ffc8dba6e79d36fe110d1189b22aa709b6b07d)
+binary stamps:
+5 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/rt.jar -> lastModified(1500701265000)
+/Users/oleg/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.6.0/play-functional_2.12-2.6.0.jar -> lastModified(1497991388000)
+/Users/oleg/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.6.0/play-json_2.12-2.6.0.jar -> lastModified(1497991410000)
+/Users/oleg/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/twirl-api_sjs0.6_2.12/1.3.2/twirl-api_sjs0.6_2.12-1.3.2.jar -> lastModified(1496630919000)
+/Users/oleg/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.2/scala-library-2.12.2.jar -> lastModified(1492071552000)
+class names:
+5 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/rt.jar -> java.lang.Object
+/Users/oleg/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.6.0/play-functional_2.12-2.6.0.jar -> play.api.libs.functional.FunctionalCanBuild$
+/Users/oleg/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.6.0/play-json_2.12-2.6.0.jar -> play.api.libs.json.LowPriorityWrites
+/Users/oleg/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/twirl-api_sjs0.6_2.12/1.3.2/twirl-api_sjs0.6_2.12-1.3.2.jar -> play.twirl.api.Template1
+/Users/oleg/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.2/scala-library-2.12.2.jar -> scala.Predef$
+internal apis:
+4 items
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwIe2OwwAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAic3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwNb/FNnQABm5vdGlmeXNxAH4ADOCgzPZ0AAZmb3JtYXRzcQB+AAy3XWajdAAEd2FpdHNxAH4ADMqpYPZ0AA0kYXNJbnN0YW5jZU9mc3EAfgAMA0onCXQADHByb2R1Y3RBcml0eXNxAH4ADIqqeJt0AAZlcXVhbHNzcQB+AAzAZaYrdAAMYXNJbnN0YW5jZU9mc3EAfgAMRIGPqnQAAWZzcQB+AAygoxXJdAAMc3luY2hyb25pemVkc3EAfgAMzNCZYXQACV9kaXNwbGF5X3NxAH4ADEghHrR0AA0kaXNJbnN0YW5jZU9mc3EAfgAMWHicDHQAA3JlZnNxAH4ADP6FUVl0AAhjYW5FcXVhbHNxAH4ADC9dAMJ0AA1wcm9kdWN0UHJlZml4c3EAfgAMo85ianQACW5vdGlmeUFsbHNxAH4ADFpgxMZ0AAxpc0luc3RhbmNlT2ZzcQB+AAx2uL9RdAAFYXBwbHlzcQB+AAx9LB5WdAACPT1zcQB+AAxm5vVPdAAFY2xvbmVzcQB+AAzgxp9PdAAGJGluaXQkc3EAfgAMZ7hlf3QABGNvcHlzcQB+AAyOVa1edAAIdG9TdHJpbmdzcQB+AAyvXWdVdAACIT1zcQB+AAxTkda4dAAIZ2V0Q2xhc3NzcQB+AAwnjOWPdAAOY29weSRkZWZhdWx0JDFzcQB+AAyq1xJQdAAGcmVuZGVyc3EAfgAMIqNaRHQAAm5lc3EAfgAMFfU/ZnQAAmVxc3EAfgAMUCU34XQAD3Byb2R1Y3RJdGVyYXRvcnNxAH4ADP7SX5h0AAIjI3NxAH4ADF1f81F0AAhmaW5hbGl6ZXNxAH4ADLd36fx0AA5wcm9kdWN0RWxlbWVudHNxAH4ADAhD/f10AAhoYXNoQ29kZXNxAH4ADDhhAR10AAtob3RlbHNUYWJsZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AFt4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cAB0ABZ2aWV3cy5odG1sLmhvdGVsc1RhYmxldXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBzc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AFtMAAlpbmhlcml0ZWRxAH4AW0wAB3BhcmVudHNxAH4AW3hxAH4AeHNxAH4Ac3VxAH4AVgAAAABzcQB+AHN1cQB+AFYAAAAAc3EAfgBzdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAhzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBldAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO1sADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4Ad3NyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHEAfgCFeHEAfgB3dAAJVGVtcGxhdGUxc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgB3c3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAAEc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARwbGF5c3EAfgCTdAAFdHdpcmxzcQB+AJN0AANhcGlzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AlHVxAH4AggAAAAJzcQB+AIRzcQB+AIh0AANTZXFzcQB+AItzcQB+AI51cQB+AJEAAAADc3EAfgCTdAAFc2NhbGFzcQB+AJN0AApjb2xsZWN0aW9ucQB+AJx1cQB+AIIAAAABc3EAfgCIdAAFSG90ZWxzcQB+AItzcQB+AI51cQB+AJEAAAACc3EAfgCTdAAFbW9kZWxxAH4AnHNxAH4AiHQABEh0bWxxAH4AjXNxAH4AhHNxAH4AiHQAEUJhc2VTY2FsYVRlbXBsYXRlcQB+AI11cQB+AIIAAAACcQB+ALBzcQB+AIRzcQB+AIh0AAZGb3JtYXRxAH4AjXVxAH4AggAAAAFxAH4AsHNxAH4AiHQADFNlcmlhbGl6YWJsZXNxAH4Ai3NxAH4AjnVxAH4AkQAAAAJzcQB+AJNxAH4ApXEAfgCcc3EAfgCIcQB+ALtzcQB+AItzcQB+AI51cQB+AJEAAAADc3EAfgCTdAAEamF2YXNxAH4Ak3QAAmlvcQB+AJxzcQB+AIh0AAdQcm9kdWN0cQB+ALxzcQB+AIh0AAZFcXVhbHNxAH4AvHNxAH4AiHQABk9iamVjdHNxAH4Ai3NxAH4AjnVxAH4AkQAAAANzcQB+AJNxAH4AxXNxAH4Ak3QABGxhbmdxAH4AnHNxAH4AiHQAA0FueXEAfgC8dXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAJzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAFdmlld3NzcQB+ANh0AAp2aWV3cy5odG1sc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFjWL0qLHVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AEQvVXNlcnMvb2xlZy9HaXRIdWIvc2NhbGEtY291cnNlL3NoYXJlZC8uanMvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFCoeHozYDdVW/c+psoJIllirf7eI
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwKgjZXgAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAFzcgAgeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2hbDvUidjhXzwIAAkkABGhhc2hMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHD2mo1JdAALY29vcmRpbmF0ZXN1cQB+AAkAAAAic3EAfgALn1vwy3QABm5vdGlmeXNxAH4AC5FlCT50AAd1bmFwcGx5c3EAfgALaTTdsHQABHdhaXRzcQB+AAt9jrUadAAOY29weSRkZWZhdWx0JDJzcQB+AAtrnXB+dAANJGFzSW5zdGFuY2VPZnNxAH4AC6qtthJ0AAxwcm9kdWN0QXJpdHlzcQB+AAv8oeY6dAAGZXF1YWxzc3EAfgALwM1iSXQADGFzSW5zdGFuY2VPZnNxAH4AC19chIN0AAxzeW5jaHJvbml6ZWRzcQB+AAuhcHiCdAANJGlzSW5zdGFuY2VPZnNxAH4AC50zpgp0AAhjYW5FcXVhbHNxAH4AC5mgSIR0AA1wcm9kdWN0UHJlZml4c3EAfgALpnGboHQAC0Nvb3JkaW5hdGVzc3EAfgALVhuMOXQACW5vdGlmeUFsbHNxAH4AC/EdHwZ0AAxpc0luc3RhbmNlT2ZzcQB+AAu1aSSwdAAEbG9uZ3NxAH4ACxTkPW90AAY8aW5pdD5zcQB+AAvgujsIdAAFYXBwbHlzcQB+AAt7oPdRdAACPT1zcQB+AAuSShH2dAAFY2xvbmVzcQB+AAucHyNWdAAGJGluaXQkc3EAfgALwW3ZhXQABGNvcHlzcQB+AAvihG4zdAAIdG9TdHJpbmdzcQB+AAuopwSLdAACIT1zcQB+AAvFBGEKdAAIZ2V0Q2xhc3NzcQB+AAu2RU+rdAAOY29weSRkZWZhdWx0JDFzcQB+AAt4yoKvdAACbmVzcQB+AAstz9+/dAACZXFzcQB+AAt2dp02dAAPcHJvZHVjdEl0ZXJhdG9yc3EAfgALPZIle3QAA2xhdHNxAH4AC7KimUp0AAIjI3NxAH4AC64zhQZ0AAhmaW5hbGl6ZXNxAH4AC9xTpVB0AA5wcm9kdWN0RWxlbWVudHNxAH4AC52pANt0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAJzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AF14cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgAMeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cAB0ABFtb2RlbC5Db29yZGluYXRlc3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgB1c3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AF1MAAlpbmhlcml0ZWRxAH4AXUwAB3BhcmVudHNxAH4AXXhxAH4AenNxAH4AdXVxAH4AWAAAAABzcQB+AHV1cQB+AFgAAAAAc3EAfgB1dXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAZzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AAxMAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgB5dAAMU2VyaWFsaXphYmxlc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgB5c3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADHhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCTc3EAfgCGcQB+AIlzcQB+AIpzcQB+AI11cQB+AJAAAAADc3EAfgCSdAAEamF2YXNxAH4AknQAAmlvcQB+AJdzcQB+AIZ0AAdQcm9kdWN0cQB+AIxzcQB+AIZ0AAZFcXVhbHNxAH4AjHNxAH4AhnQABk9iamVjdHNxAH4AinNxAH4AjXVxAH4AkAAAAANzcQB+AJJxAH4AnXNxAH4AknQABGxhbmdxAH4Al3NxAH4AhnQAA0FueXEAfgCMc3EAfgBacQB+AGd1cQB+AGgAAAAAc3EAfgBqAHQAEW1vZGVsLkNvb3JkaW5hdGVzdXEAfgBtAAAAAH5xAH4Ab3QABk1vZHVsZXVxAH4AcwAAAABzcQB+AHVxAH4Ae3NxAH4AdXNxAH4AfXNxAH4AdXVxAH4AWAAAAABzcQB+AHV1cQB+AFgAAAAAc3EAfgB1dXEAfgCEAAAABHNxAH4AhnEAfgCJc3EAfgCKc3EAfgCNdXEAfgCQAAAAAnNxAH4AknEAfgCVcQB+AJdzcQB+AIZxAH4AiXNxAH4AinNxAH4AjXVxAH4AkAAAAANzcQB+AJJxAH4AnXNxAH4AknQAAmlvcQB+AJdzcQB+AIZxAH4ApXNxAH4AinNxAH4AjXVxAH4AkAAAAANzcQB+AJJxAH4AnXNxAH4AknEAfgCrcQB+AJdzcQB+AIZxAH4ArXEAfgDAdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADHhwdAAFbW9kZWxzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAWNYvSosdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgAMTAAPc291cmNlRGlyZWN0b3J5cQB+AAx4cHQARC9Vc2Vycy9vbGVnL0dpdEh1Yi9zY2FsYS1jb3Vyc2Uvc2hhcmVkLy5qcy90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUmbOcpjE6qRBf5cZkq2ez0g7qOE8=
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwt7uWvgAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAFzcgAgeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2hbDvUidjhXzwIAAkkABGhhc2hMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHCAYgCLdAAGd3JpdGVzdXEAfgAJAAAAJnNxAH4AC9dNJe10AAZub3RpZnlzcQB+AAuR/0b4dAALY29vcmRpbmF0ZXNzcQB+AAsIzEnWdAAHdW5hcHBseXNxAH4AC5KxbJV0AARuYW1lc3EAfgALyTOEzXQABHdhaXRzcQB+AAvjjztPdAAOY29weSRkZWZhdWx0JDJzcQB+AAtuZpf/dAANJGFzSW5zdGFuY2VPZnNxAH4AC88/Juh0AAxwcm9kdWN0QXJpdHlzcQB+AAsm/YIcdAAGZXF1YWxzc3EAfgALupN/LHQADGFzSW5zdGFuY2VPZnNxAH4AC7ilyUF0AAxzeW5jaHJvbml6ZWRzcQB+AAv/HBN+dAANJGlzSW5zdGFuY2VPZnNxAH4AC6jaPw90AAhjYW5FcXVhbHNxAH4AC95oXiN0AA5jb3B5JGRlZmF1bHQkNHNxAH4AC9SZ6vV0AA1wcm9kdWN0UHJlZml4c3EAfgALTHE6nnQABUhvdGVsc3EAfgALVfxLhHQACW5vdGlmeUFsbHNxAH4AC9N56C10AAxpc0luc3RhbmNlT2ZzcQB+AAtzJZy2dAAGPGluaXQ+c3EAfgALjpVxzXQAAmlkc3EAfgALqFxugXQABWFwcGx5c3EAfgALSszUr3QAAj09c3EAfgALT4W/XnQABWNsb25lc3EAfgALt3OSw3QABiRpbml0JHNxAH4ACyyIFXp0AA5jb3B5JGRlZmF1bHQkM3NxAH4AC111vN50AARjb3B5c3EAfgALALiFfnQACHRvU3RyaW5nc3EAfgALppI0lXQAAiE9c3EAfgALPyJGm3QACGdldENsYXNzc3EAfgALIz6bqHQADmNvcHkkZGVmYXVsdCQxc3EAfgALLlnTQ3QAAm5lc3EAfgALNv45HHQABmltYWdlc3NxAH4AC3bJDRl0AAJlcXNxAH4AC+SCoRB0AA9wcm9kdWN0SXRlcmF0b3JzcQB+AAvtdoCLdAACIyNzcQB+AAsQV/DadAAIZmluYWxpemVzcQB+AAtso47KdAAOcHJvZHVjdEVsZW1lbnRzcQB+AAuAgnwKdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAACc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBleHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADHhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAdAALbW9kZWwuSG90ZWx1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AfXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBlTAAJaW5oZXJpdGVkcQB+AGVMAAdwYXJlbnRzcQB+AGV4cQB+AIJzcQB+AH11cQB+AGAAAAAAc3EAfgB9dXEAfgBgAAAAAHNxAH4AfXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAAGc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgAMTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AgXQADFNlcmlhbGl6YWJsZXNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AgXNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AAx4cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4Am3NxAH4AjnEAfgCRc3EAfgCSc3EAfgCVdXEAfgCYAAAAA3NxAH4AmnQABGphdmFzcQB+AJp0AAJpb3EAfgCfc3EAfgCOdAAHUHJvZHVjdHEAfgCUc3EAfgCOdAAGRXF1YWxzcQB+AJRzcQB+AI50AAZPYmplY3RzcQB+AJJzcQB+AJV1cQB+AJgAAAADc3EAfgCacQB+AKVzcQB+AJp0AARsYW5ncQB+AJ9zcQB+AI50AANBbnlxAH4AlHNxAH4AYnEAfgBvdXEAfgBwAAAAAHNxAH4AcgB0AAttb2RlbC5Ib3RlbHVxAH4AdQAAAAB+cQB+AHd0AAZNb2R1bGV1cQB+AHsAAAAAc3EAfgB9cQB+AINzcQB+AH1zcQB+AIVzcQB+AH11cQB+AGAAAAAAc3EAfgB9dXEAfgBgAAAAAHNxAH4AfXVxAH4AjAAAAARzcQB+AI5xAH4AkXNxAH4AknNxAH4AlXVxAH4AmAAAAAJzcQB+AJpxAH4AnXEAfgCfc3EAfgCOcQB+AJFzcQB+AJJzcQB+AJV1cQB+AJgAAAADc3EAfgCacQB+AKVzcQB+AJp0AAJpb3EAfgCfc3EAfgCOcQB+AK1zcQB+AJJzcQB+AJV1cQB+AJgAAAADc3EAfgCacQB+AKVzcQB+AJpxAH4As3EAfgCfc3EAfgCOcQB+ALVxAH4AyHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AAx4cHQABW1vZGVsc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFjWL0qLHVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADEwAD3NvdXJjZURpcmVjdG9yeXEAfgAMeHB0AEQvVXNlcnMvb2xlZy9HaXRIdWIvc2NhbGEtY291cnNlL3NoYXJlZC8uanMvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFIIlHUNrB3vidSuXOYNSBlb+EGZm
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/services/hotels/HotelsService.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhw3m85qgAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAVc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwsoXMRXQABm5vdGlmeXNxAH4ADML0y6Z0AAR3YWl0c3EAfgAMfOTZ7nQADSRhc0luc3RhbmNlT2ZzcQB+AAxFcYrTdAAGZXF1YWxzc3EAfgAMuETVXXQADGFzSW5zdGFuY2VPZnNxAH4ADOPapC90AAxzeW5jaHJvbml6ZWRzcQB+AAy7+CqKdAANJGlzSW5zdGFuY2VPZnNxAH4ADC7Za850AAlub3RpZnlBbGxzcQB+AAyK7McPdAAMaXNJbnN0YW5jZU9mc3EAfgAM0z0oo3QAAj09c3EAfgAMeABLpnQABWNsb25lc3EAfgAMLDBXQXQACHRvU3RyaW5nc3EAfgAMmh9s7HQAAiE9c3EAfgAM+PfMd3QACGdldENsYXNzc3EAfgAMzm7Fr3QADUhvdGVsc1NlcnZpY2VzcQB+AAzNQk9ldAACbmVzcQB+AAzkJ5HXdAACZXFzcQB+AAzOzpzZdAACIyNzcQB+AAx5QQeXdAAIZmluYWxpemVzcQB+AAySYRXjdAAIaGFzaENvZGVzcQB+AAw0JpvTdAAGc2VhcmNoc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AQXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAXQAHXNlcnZpY2VzLmhvdGVscy5Ib3RlbHNTZXJ2aWNldXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAFVHJhaXR1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AFlzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AQUwACWluaGVyaXRlZHEAfgBBTAAHcGFyZW50c3EAfgBBeHEAfgBec3EAfgBZdXEAfgA8AAAAAHNxAH4AWXVxAH4APAAAAABzcQB+AFl1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AF10AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AF1zcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+AHZ0AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AHdzcQB+AGp0AANBbnlzcQB+AG5zcQB+AHF1cQB+AHQAAAACc3EAfgB2dAAFc2NhbGFxAH4AfXVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAACc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQAD3NlcnZpY2VzLmhvdGVsc3NxAH4Ah3QACHNlcnZpY2Vzc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFjWL0qLHVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AEQvVXNlcnMvb2xlZy9HaXRIdWIvc2NhbGEtY291cnNlL3NoYXJlZC8uanMvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFPL/yNum5502/hENEYmyKqcJtrB9
+external apis:
+0 items
+source infos:
+4 items
+/Users/oleg/GitHub/scala-course/shared/.js/target/scala-2.12/twirl/main/views/html/hotelsTable.template.scala -> 
+AAAAAAAAAAA=
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Coordinates.scala -> 
+AAAAAAAAAAA=
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/model/Hotel.scala -> 
+AAAAAAAAAAA=
+/Users/oleg/GitHub/scala-course/shared/src/main/scala/services/hotels/HotelsService.scala -> 
+AAAAAAAAAAA=
+compilations:
+1 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABY1i9Kix1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARC9Vc2Vycy9vbGVnL0dpdEh1Yi9zY2FsYS1jb3Vyc2Uvc2hhcmVkLy5qcy90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABLw==

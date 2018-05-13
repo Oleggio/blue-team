@@ -1,0 +1,26 @@
+[0m[[0mdebug[0m] [0mExecuting Native docker build --force-rm -t play-scala-server:1.0-SNAPSHOT .[0m
+[0m[[0mdebug[0m] [0mWorking directory /Users/oleg/GitHub/scala-course/server/target/docker/stage[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon  50.83MB[0m
+[0m[[0minfo[0m] [0mStep 1/7 : FROM openjdk:latest[0m
+[0m[[0minfo[0m] [0m ---> c3e386dcd062[0m
+[0m[[0minfo[0m] [0mStep 2/7 : WORKDIR /opt/docker[0m
+[0m[[0minfo[0m] [0m ---> Using cache[0m
+[0m[[0minfo[0m] [0m ---> f6f6b1dffe57[0m
+[0m[[0minfo[0m] [0mStep 3/7 : ADD opt /opt[0m
+[0m[[0minfo[0m] [0m ---> Using cache[0m
+[0m[[0minfo[0m] [0m ---> 4e2b5ce7d2e3[0m
+[0m[[0minfo[0m] [0mStep 4/7 : RUN ["chown", "-R", "daemon:daemon", "."][0m
+[0m[[0minfo[0m] [0m ---> Using cache[0m
+[0m[[0minfo[0m] [0m ---> c5bcc8b3827f[0m
+[0m[[0minfo[0m] [0mStep 5/7 : USER daemon[0m
+[0m[[0minfo[0m] [0m ---> Using cache[0m
+[0m[[0minfo[0m] [0m ---> 53ca3daea456[0m
+[0m[[0minfo[0m] [0mStep 6/7 : ENTRYPOINT ["bin/play-scala-server"][0m
+[0m[[0minfo[0m] [0m ---> Using cache[0m
+[0m[[0minfo[0m] [0m ---> 0101ceb98496[0m
+[0m[[0minfo[0m] [0mStep 7/7 : CMD [][0m
+[0m[[0minfo[0m] [0m ---> Using cache[0m
+[0m[[0minfo[0m] [0m ---> 04e4c572a4c2[0m
+[0m[[0minfo[0m] [0mSuccessfully built 04e4c572a4c2[0m
+[0m[[0minfo[0m] [0mSuccessfully tagged play-scala-server:1.0-SNAPSHOT[0m
+[0m[[0minfo[0m] [0mBuilt image play-scala-server:1.0-SNAPSHOT[0m
