@@ -1,0 +1,41 @@
+HW 6
+Hotels Train Data Schema
+ |-- date_time: timestamp (nullable = true)
+ |-- site_name: integer (nullable = true)
+ |-- posa_continent: integer (nullable = true)
+ |-- user_location_country: integer (nullable = true)
+ |-- user_location_region: integer (nullable = true)
+ |-- user_location_city: integer (nullable = true)
+ |-- orig_destination_distance: double (nullable = true)
+ |-- user_id: integer (nullable = true)
+ |-- is_mobile: integer (nullable = true)
+ |-- is_package: integer (nullable = true)
+ |-- channel: integer (nullable = true)
+ |-- srch_ci: timestamp (nullable = true)
+ |-- srch_co: timestamp (nullable = true)
+ |-- srch_adults_cnt: integer (nullable = true)
+ |-- srch_children_cnt: integer (nullable = true)
+ |-- srch_rm_cnt: integer (nullable = true)
+ |-- srch_destination_id: integer (nullable = true)
+ |-- srch_destination_type_id: integer (nullable = true)
+ |-- is_booking: integer (nullable = true)
+ |-- cnt: integer (nullable = true)
+ |-- hotel_continent: integer (nullable = true)
+ |-- hotel_country: integer (nullable = true)
+ |-- hotel_market: integer (nullable = true)
+ |-- hotel_cluster: integer (nullable = true)
+
+case class HotelVisit(hotel_market: Int, hotel_cluster: Int, hotel_country: Int, is_booking: Boolean, user_location_country: Int, srch_adults_cnt: Int,srch_children_cnt: Int)
+
+val hotels = spark.read.option("inferSchema","true").option("header","true").csv("/user/admin/datasets/train_sample2.csv").as[HotelVisit]
+
+1. Find top 3 most popular hotels between couples.
+
+val topHotelsBetweenCouples = spark.sql("SELECT hotel_continent,hotel_country,hotel_market,hotel_cluster, COUNT(*) AS view_count FROM hotels WHERE srch_adults_cnt = 2 AND srch_children_cnt = 0 GROUP BY hotel_continent,hotel_country,hotel_market,hotel_cluster ORDER BY view_count DESC LIMIT 3 ")
+
+2. Find most popular country where hotels are booked and searched from same country
+
+val mostLocalCountry = spark.sql("SELECT hotel_continent,hotel_country,hotel_market,hotel_cluster, COUNT(*) AS view_count FROM hotels WHERE user_location_country = hotel_country GROUP BY hotel_continent,hotel_country,hotel_market,hotel_cluster ORDER BY view_count DESC LIMIT 1")
+
+3. Find top 3 hotels where people with children are interested but not booked in the end
+val topClickOnlyWithChildrer = spark.sql("SELECT hotel_continent,hotel_country,hotel_market,hotel_cluster, COUNT(*) AS view_count FROM hotels WHERE srch_adults_cnt > 0 AND is_booking = 0 GROUP BY hotel_continent,hotel_country,hotel_market,hotel_cluster ORDER BY view_count DESC LIMIT 3")
