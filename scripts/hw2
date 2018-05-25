@@ -1,0 +1,22 @@
+CREATE KEYSPACE hotels WITH REPLICATION =
+{ 'class' : 'NetworkTopologyStrategy', 'datacenter1' : 1 };
+
+CREATE TABLE hotels.image_stats (
+  hotelid int,
+  imageid int,
+  showed counter,
+  clicked counter,
+  boocked counter,
+  PRIMARY KEY (hotelid, imageid)
+) WITH COMPRESSION =
+    { 'sstable_compression' : 'EncryptingSnappyCompressor',
+    'cipher_algorithm' : 'AES/ECB/PKCS5Padding',
+    'secret_key_strength' : 128,
+    'iv_length' : 16 };
+
+-- Check updates work
+
+UPDATE hotels.image_stats SET showed = showed + 1 WHERE hotelid = 1 AND imageid = 1;
+ hotelid | imageid | boocked | clicked | showed
+---------+---------+---------+---------+--------
+       1 |       1 |    null |    null |      1
